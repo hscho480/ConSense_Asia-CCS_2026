@@ -1,0 +1,8 @@
+<launch>
+    <rosparam command="load" file="$(find consense_ros)/config/params.yaml" />
+    
+    <rosparam command="load" file="$(find consense_ros)/config/sensors.yaml" />
+
+    <node pkg="consense_ros" type="anomaly_detector.py" name="consense_node" output="screen">
+        </node>
+</launch>
