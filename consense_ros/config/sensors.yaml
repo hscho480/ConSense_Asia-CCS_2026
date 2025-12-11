@@ -1,0 +1,6 @@
+sensor_groups:
+  # Define feature vector indices [start_index, end_index_inclusive]
+  # Context Vector: [Lat, Lon, Alt, Ax, Ay, Az, Gx, Gy, Gz]
+  gnss: [0, 2]
+  accel: [3, 5]
+  gyro: [6, 8]
