@@ -1,4 +1,4 @@
-# ConSense: Context-Aware Resilience for Anomaly Detection
+# **ConSense**: Context-Aware Residual Correction for Enhanced Detection of Sensor Attacks in Robotic Vehicles
 
 ConSense is a ROS-based resilience framework designed to detect sensor attacks and mitigate state estimation errors in real-time for robotic vehicles (UAVs/UGVs).
 
