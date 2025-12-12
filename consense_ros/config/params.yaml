@@ -1,0 +1,8 @@
+consense:
+  # Adaptive Filtering Parameters
+  alpha: 0.01         # Learning rate for EMA context model
+  beta: 1.0           # Sensitivity factor for weight penalty
+  lambda_rls: 0.995   # Forgetting factor for RLS filter
+  
+  # Anomaly Detection
+  threshold_chisq: 15.5  # Chi-squared threshold (p=0.95, dof=9)
