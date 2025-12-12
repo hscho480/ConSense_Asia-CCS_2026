@@ -42,5 +42,4 @@ roslaunch consense_ros consense.launch
 Check real-time detection status and anomaly scores:
 ```bash
 rostopic echo /consense/status
-# Output Example: "Score: 32.41 | Attack Detected: gnss_consistency"
 ```
